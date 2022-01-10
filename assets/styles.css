@@ -1,0 +1,418 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Rubik', sans-serif;
+}
+
+/* @font-face {
+  font-family: customCassandra;
+  src: url(../assets/fonts/CassandraPersonalUseRegular-3BjG.ttf);
+} */
+
+
+
+h1  {
+  color: #fff;
+  font-size: 90px;
+  font-weight: 400;
+  margin: 0;
+}
+
+h2  {
+  color: #fff;
+  font-size: 90px;
+  font-weight: 700;
+  margin-bottom: 56px;
+}
+
+h3  {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 56px;
+    margin-bottom: 30px;
+}
+
+h3 span {
+  font-weight: bold;
+}
+
+
+
+h4  {
+  color: #BC2F25;
+  font-size: 19px;
+  margin-bottom: 18.8px;
+}
+
+h5  {
+  color: #fff;
+  font-size: 18px;
+  line-height: 1.875rem;
+  margin-bottom: 15px;
+}
+
+p  {
+  font-size: 21px;
+    color: #464646;
+    line-height: 2.625rem;
+    margin-bottom: 30px;
+}
+
+  .big-text-p {
+    font-size: 28px;
+  }
+
+  .big-text-p a {
+    color: #BC2F25;
+    font-weight: bold;
+  }
+
+img {
+  width: 100%;
+}
+
+.thumbnail  {
+  margin-bottom: 30px;
+}
+
+header  {
+  /* display: none; */
+}
+
+.container  {
+  position: relative;
+  width: 1140px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.container-fluid  {
+  width: 1140px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 0;
+}
+
+.choose {
+  display: flex;
+}
+
+
+a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+a:hover {
+
+color: rgb(188, 248, 203);
+}
+
+.brand {
+  color: aliceblue !important;
+  /* padding: 12px 67px; */
+}
+
+.navbar-nav {
+  flex-direction: row;
+ }
+
+.nav-item a {
+  color: aliceblue !important;
+  margin-right: 30px;
+  font-size: 16px
+}
+
+.button  {
+  display: inline-block;
+  background-color: hsl(4, 67%, 44%);
+  padding: 15px 27px 15px 10px;
+  color: aliceblue;
+  border-radius: 100px;
+  border: none;
+}
+
+.button span  {
+  color: #BC2F25;
+    background-color: #fff;
+    padding: 7px;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+
+.cta2 {
+  display: inline-block;
+  background-color: #BC2F25;
+  font-size: 17px;
+  padding: 22px 65px;
+  color: #fff;
+  border: none;
+}
+
+.cta3 {
+  display: inline-block;
+  background-color: #BC2F25;
+  font-size: 0.9rem;
+  padding: 6px 12px;
+  color: aliceblue;
+  border: none;
+}
+
+.hero-section {
+position: relative;
+}
+
+.hero-image {
+  width: 100%;
+  height: 877px;
+  object-fit: cover;
+  /* object-position: left; */
+}
+
+.hero-text  {
+  width: 100%;
+  bottom: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  left: 0;
+  position: absolute;
+  text-align: center;
+  z-index: 1;
+}
+
+.hero-text p  {
+  color: #fff;
+  font-size: 18px;
+  font-weight: lighter;
+  line-height: 2.4rem;
+  margin-bottom: 48px;
+}
+
+.container-wrap {
+  text-align: center;
+  padding: 46px 0;
+}
+
+.discover-section {
+  background-image: url("/image/houstonmortgage_discover.png");
+}
+
+.cards  {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  text-align: center;
+  margin: 0 ;
+  padding: 0;
+  justify-content: center;
+}
+
+
+
+.cards .cards-item {
+  display: flex;
+  margin: 15px 10px;
+  width: 17%;
+  box-shadow: 2px 8px 9px 0px rgba(101, 117, 124, 0.493);
+}
+
+.cards .cards-item .card  {
+  background-color: white;
+  border-radius: 0.25rem;
+  /* box-shadow: 0 20px 40px -14px rgba(92, 100, 100, 0.384); */
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.card-wrap .card .card-text {
+  margin: 15px 10px;
+}
+
+footer  {
+  position: relative;
+}
+
+footer .container-wrap  {
+  padding: 0;
+}
+
+.footer-text  {
+  position: absolute;
+  display: flex;
+  color: rgb(255, 255, 255);
+  bottom: 50%;
+  transform: translateY(-50%);
+    left: 0;
+    right: 0;
+  text-align: left;
+  justify-content: center;
+}
+
+.footer-text  ul  {
+  list-style-type: none;
+  margin: 0 0.5rem;
+  padding: 0;
+}
+
+.footer-text p  {
+  font-size: 15px;
+  color: #c2c2c2;
+  line-height: 2.0625rem;
+  margin-bottom: 0px;
+}
+
+.footer-img img {
+  width: 100%;
+  height: 659px;
+  object-fit: cover;
+  object-position: center;
+  border-top: 6px solid #BC2F25;
+}
+
+
+@media screen and (max-width: 992px)  {
+  h1, h2  {
+    font-size: 50.5px;
+  }
+
+  h2 {
+    margin-bottom: 20px;
+  }
+
+  h3 {
+    margin-bottom: 20px;
+  }
+
+  .container  {
+    width: 98%;
+  }
+
+  .hero-image {
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+    object-position: 12%
+  }
+
+  .hero-text  {
+    /* bottom: -85px;
+  right: 0;
+  transform: translateY(-50%);
+  left: 0; */
+  }
+
+  .hero-text  p {
+    font-size: 17px;
+    line-height: 1.8rem;
+    margin-bottom: 12px;
+  }
+
+  .cta2 {
+    font-size: 14px;
+    margin-top: 10px;
+  padding: 14px 38px;
+  }
+
+  .cards .cards-item{width: 30%;} 
+}
+
+ 
+
+@media screen and (max-width: 768px)  {
+
+  .navbar-nav {
+    flex-direction: row;
+    flex-wrap: wrap;
+   }
+
+  .hero-image {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    object-position: 12%
+  }
+
+  h1, h2 {
+    font-size: 35px;
+  }
+
+  h2 {
+    margin-bottom: 14px;
+  }
+
+  h5  {
+    font-size: 1.1rem;
+  }
+
+  .hero-text  {
+    bottom: 0;
+  }
+
+  .hero-text  p {
+    font-size: 15px;
+    line-height: 1.5rem
+  }
+  p {
+    font-size: 14px;
+    line-height: 1.5rem;
+  }
+
+  .cta2 {
+    font-size: 12px;
+    margin-top: 10px;
+  padding: 12px 34px;
+  }
+
+  .cards .cards-item{width: 40%;}
+
+  .footer-text  {
+    display: block;
+  }
+  /* .card-wrap  {
+    display: inline-block;
+  } */
+
+  /* .card-wrap .card  {
+    margin: 15px 10px;
+    width: 17%;
+  } */
+}
+
+@media screen and (max-width: 480px)  {
+  h1.heading1, h2.heading2  {
+    font-size: 35px;
+  }
+
+  .hero-text  {
+    bottom: 75px;
+  }
+
+  .hero-text p  {
+    font-size: 16px;
+    line-height: 1.5rem;
+  }
+
+  .cards .cards-item{width: 76%;}
+
+  .cta2 {
+    font-size: 10px;
+    margin-top: 10px;
+  padding: 10px 30px;
+  }
+}
+
+/* @media(min-width: 480px) {
+  .cards-item{width: 40%;} 
+}
+@media(min-width: 768px) {
+  .cards-item{width: 30%;}
+}
+  
+@media(min-width: 1024px) {
+  .cards-item{width: 17%;}
+} */
